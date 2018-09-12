@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.pageTitle {
+    margin: 10px 0 20px;
+}
+
+.tableContainerCard {
+    display: flex;
+    align-content: center;
+    margin: 30px 0 20px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tableInnerContainer {
+    border: solid lightgray 2px;
+    overflow-x: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.colorsConfigFragmentContainerTitle {
+    margin: 15px 0 30px;
+}
+
+.colorsConfigFragmentContainer {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.colorsConfigFragment {
+    overflow: auto;
+    border: solid lightgray 2px;
+    padding: 10px;
+
+}
+
+.colorsConfigFragmentTextArea {
+    border: none;
+    resize: none;
+    font-family: "Liberation Mono 10", monospace;
+}
+
+.exampleWindowColorsContainer {
+}
